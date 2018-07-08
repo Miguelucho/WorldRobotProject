@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/nvidia/workspaceROS/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspaceROS/catkin_ws/install -G Unix Makefiles
+udacity_map
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/install -G Unix Makefiles

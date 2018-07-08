@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/nvidia/workspaceROS/catkin_ws/devel/setup.sh
+    local-name: /home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/devel/setup.sh

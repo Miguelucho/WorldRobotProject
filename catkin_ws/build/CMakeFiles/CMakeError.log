@@ -1,25 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4ebbe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4ebbe.dir/build.make CMakeFiles/cmTC_4ebbe.dir/build
-make[1]: se entra en el directorio '/home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4ebbe.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_4ebbe.dir/CheckSymbolExists.c.o   -c /home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_4ebbe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ebbe.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4ebbe.dir/CheckSymbolExists.c.o  -o cmTC_4ebbe -rdynamic 
-CMakeFiles/cmTC_4ebbe.dir/CheckSymbolExists.c.o: En la función `main':
+Run Build Command:"/usr/bin/make" "cmTC_c59b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c59b5.dir/build.make CMakeFiles/cmTC_c59b5.dir/build
+make[1]: se entra en el directorio '/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c59b5.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c59b5.dir/CheckSymbolExists.c.o   -c /home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c59b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c59b5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c59b5.dir/CheckSymbolExists.c.o  -o cmTC_c59b5 -rdynamic 
+CMakeFiles/cmTC_c59b5.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x14): referencia a `pthread_create' sin definir
 CheckSymbolExists.c:(.text+0x18): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4ebbe.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_4ebbe'
-make[1]: *** [cmTC_4ebbe] Error 1
-make[1]: se sale del directorio '/home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_4ebbe/fast'
-make: *** [cmTC_4ebbe/fast] Error 2
+CMakeFiles/cmTC_c59b5.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_c59b5'
+make[1]: *** [cmTC_c59b5] Error 1
+make[1]: se sale del directorio '/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_c59b5/fast'
+make: *** [cmTC_c59b5/fast] Error 2
 
-File /home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -35,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_700c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_700c0.dir/build.make CMakeFiles/cmTC_700c0.dir/build
-make[1]: se entra en el directorio '/home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_700c0.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_700c0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_700c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_700c0.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_700c0.dir/CheckFunctionExists.c.o  -o cmTC_700c0 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_4c8cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c8cb.dir/build.make CMakeFiles/cmTC_4c8cb.dir/build
+make[1]: se entra en el directorio '/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c8cb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4c8cb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c8cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c8cb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4c8cb.dir/CheckFunctionExists.c.o  -o cmTC_4c8cb -rdynamic -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_700c0.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_700c0'
-make[1]: *** [cmTC_700c0] Error 1
-make[1]: se sale del directorio '/home/nvidia/workspaceROS/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_700c0/fast'
-make: *** [cmTC_700c0/fast] Error 2
+CMakeFiles/cmTC_4c8cb.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_4c8cb'
+make[1]: *** [cmTC_4c8cb] Error 1
+make[1]: se sale del directorio '/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_4c8cb/fast'
+make: *** [cmTC_4c8cb/fast] Error 2
 
 
