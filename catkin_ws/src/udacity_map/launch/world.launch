@@ -2,7 +2,7 @@
 
 <launch>
 
-  <!--include file="$(find udacity_map)/launch/robot_description.launch"/-->
+  <include file="$(find udacity_map)/launch/robot_description.launch"/>
 
   <arg name="world" default="empty"/> 
   <arg name="paused" default="false"/>
@@ -21,8 +21,8 @@
   </include>
   
   <!--spawn a robot in gazebo world-->
-  <!--node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" 
-  output="screen" args="-urdf -param robot_description -model udacity_map"/-->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" 
+  output="screen" args="-urdf -param robot_description -model udacity_map"/>
   
   <!--launch rviz-->
   <!--node name="rviz" pkg="rviz" type="rviz" respawn="false"/-->
