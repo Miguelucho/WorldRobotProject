@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- turtlebot teleop key-->
+
 <launch>
-  <!-- turtlebot teleop key-->
-  <node name="teleop" pkg="udacity_map" type="teleop" output="screen"/>
+  <node name="teleop" pkg="udacity_map" type="teleop" output="screen" />
 </launch>
