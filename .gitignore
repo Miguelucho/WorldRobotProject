@@ -1,1 +1,12 @@
-/Images
+/catkin_ws/.catkin_workspace
+/catkin_ws/src/CMakeLists.txt
+/catkin_ws/build/
+/catkin_ws/devel/
+/catkin_ws/src/udacity_map/CMakeLists.txt
+/catkin_ws/src/udacity_map/package.xml
+rtabmapKitchen.db
+rtabmapBotWorld.db
+MyWorld-DocumentoIEEE-ENG.pdf
+MyWorld-DocumentoIEEE-SPA.pdf
+rtab_run
+
