@@ -51,7 +51,7 @@
       <param name="Mem/IncrementalMemory" type="string" value="false"/>
     </node>
     
-  <!-- visualization with rtabmapviz -->
+  <!-- visualization with rtabmapviz >
     <node pkg="rtabmap_ros" type="rtabmapviz" name="rtabmapviz" args="-d $(find rtabmap_ros)/launch/config/rgbd_gui.ini" output="screen">
       
       <param name="subscribe_depth"             type="bool" value="true"/>
@@ -64,6 +64,6 @@
       <remap from="scan"            to="/scan"/>
       <remap from="odom"            to="/odom"/>
 	  
-    </node>	
+    </node>-->	
   </group>
 </launch>

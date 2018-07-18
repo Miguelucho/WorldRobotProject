@@ -1,8 +1,0 @@
-prefix=/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/devel
-
-Name: udacity_map
-Description: Description of udacity_map
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/nvidia/workspaceROS/MapMyWorldRobot-Project/catkin_ws/devel/lib 
-Requires: 
