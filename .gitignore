@@ -6,7 +6,10 @@
 /catkin_ws/src/udacity_map/package.xml
 rtabmapKitchen.db
 rtabmapBotWorld.db
+<<<<<<< HEAD
 MyWorld-DocumentoIEEE-ENG.pdf
 MyWorld-DocumentoIEEE-SPA.pdf
 rtab_run
 
+=======
+>>>>>>> 1a075e93cd955f49632fbd030b43a14341c2f43c
