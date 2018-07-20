@@ -1,6 +1,6 @@
 
 # World Robot Project
-** Implementation of SLAM from a model robot in a simulated environment.**
+__Implementation of SLAM from a model robot in a simulated environment__
 
 The project presented in this repository focuses on implementing simultaneous localization and mapping (SLAM)
 using two sensors (Lidar RGB-D sensor and Kinect camera) installed in a two-wheeled robot. The environments that will be mapped are two different worlds that are simulated in Gazebo. The robot transits each environment separately and maps the environment using the GraphSLAM approach to mapping based on appearance in real time (RTAB-Map).
