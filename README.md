@@ -59,4 +59,4 @@ To launch the project there are two options:
 - Launch the scrip rtab_run: `` $ ./rtab_run``
 
 ## Important.
-** In the project folder, there is a file '' Write Up '' [English / Spanish] that contains a more detailed description of the project and the author recommends reviewing.**
+__ In the project folder, there is a file '' Write Up '' [English / Spanish] that contains a more detailed description of the project and the author recommends reviewing. __
