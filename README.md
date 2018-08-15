@@ -14,22 +14,17 @@ It does not matter, here goes a help.
 - Open a terminal window:
 
 ``Ctrl + Alt + T``
-- Clone the project repository:
 
-``$ git clone git://github.com/Miguelucho/WorldRobotProject.git ``
-- Navigate to the src directory with the cd command:
-
-``$ cd ~/catkin_ws/src``
-- Initialize the catkin workspace:
-
-``$ catkin_init_workspace``
-- Return to the top level directory:
-
-``$ cd ~/catkin_ws``
-- Build the workspace:
-
-``$ catkin_make``
-
+- We started by cloning the project repository:
+```bash
+$ git clone git://github.com/Miguelucho/WorldRobotProject.git
+$ cd WorldRobotProject/catkin_ws/src
+$ catkin_init_workspace``
+$ cd ..
+$ catkin_make
+ ...  [ Wait ] ...
+$ source devel/setup.bash
+```
 You now have two new directories: build and devel. The aptly named build directory is the build space for C++ packages and, for the most part. The devel directory does contain something of interest, a file named setup.bash. This setup.bash script must be sourced before using the catkin workspace.
 
 With all the previous steps completed, the project is loaded.
@@ -40,7 +35,7 @@ To launch the project there are two options:
 
 - Open four (4) terminals: `` Crl + Alt + T`` [As shown in the image]
 - In each terminal window:
-  - Go to the directory: `` $ cd ~/catkin_ws``
+  - Go to the directory: `` $ cd WorldRobotProject/catkin_ws``
   - Build the workspace: `` $ catkin_make``
   - Load the source: `` $ source devel/setup.bash``
   - Load one node per terminal. [As it appears in the image]
@@ -55,8 +50,9 @@ To launch the project there are two options:
 ##### Option 2.
 
 - Open one (1) terminal.
-- Go to the directory of project: `` $ cd ~/MapMyWorldRobot-Project``
+- Go to the directory of project: `` $ cd WorldRobotProject``
+- Give permissions to the file *rtab_run.sh*: `` $ chmod +x rtab_run.sh``
 - Launch the scrip rtab_run: `` $ ./rtab_run``
 
 ## Important.
-__ In the project folder, there is a file '' Write Up '' [English / Spanish] that contains a more detailed description of the project and the author recommends reviewing. __
+__In the project folder, there is a file '' Write Up '' [English / Spanish] that contains a more detailed description of the project and the author recommends reviewing.__
